@@ -1,0 +1,23 @@
+2025-02-20 20:59:16,934 - INFO - Starting KNN classification script...
+2025-02-20 20:59:16,934 - INFO - Generating dataset...
+2025-02-20 20:59:16,949 - INFO - Dataset saved as knn_dataset.csv
+2025-02-20 20:59:16,951 - INFO - Scaling dataset...
+2025-02-20 20:59:16,955 - INFO - Scaler saved as scaler.pkl
+2025-02-20 20:59:16,955 - INFO - Finding optimal k...
+2025-02-20 20:59:17,159 - INFO - Optimal k found: 19
+2025-02-20 20:59:17,159 - INFO - Optimal k: 19
+2025-02-20 20:59:17,356 - INFO - Training KNN model with k=19...
+2025-02-20 20:59:17,364 - INFO - Model saved as knn_model.pkl
+2025-02-20 20:59:17,378 - INFO - 
+Classification Report:
+2025-02-20 20:59:17,389 - INFO -               precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95       104
+           1       0.97      0.92      0.94        96
+
+    accuracy                           0.94       200
+   macro avg       0.95      0.94      0.94       200
+weighted avg       0.95      0.94      0.94       200
+
+2025-02-20 20:59:17,390 - INFO - Accuracy: 0.9450
+2025-02-20 20:59:17,852 - INFO - Script execution completed.

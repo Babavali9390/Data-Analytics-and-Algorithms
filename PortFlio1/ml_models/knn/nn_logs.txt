@@ -1,0 +1,21 @@
+2025-02-20 21:00:12,930 - INFO - Starting 1-NN classification script...
+2025-02-20 21:00:12,930 - INFO - Loading Iris dataset...
+2025-02-20 21:00:13,043 - INFO - Dataset saved as iris_dataset.csv
+2025-02-20 21:00:13,043 - INFO - Model trained and stored training data.
+2025-02-20 21:00:13,044 - INFO - Model saved as simple_nn_model.pkl
+2025-02-20 21:00:13,064 - INFO - 
+Classification Report:
+2025-02-20 21:00:13,070 - INFO -               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        19
+           1       1.00      1.00      1.00        13
+           2       1.00      1.00      1.00        13
+
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+
+2025-02-20 21:00:13,071 - INFO - Accuracy: 1.0000
+2025-02-20 21:00:13,072 - INFO - 
+Sample prediction: 1
+2025-02-20 21:00:13,072 - INFO - Script execution completed.
